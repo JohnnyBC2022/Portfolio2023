@@ -1,0 +1,37 @@
+body{
+    background-color: #000000;  
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden; /*oculta el scroll horizontal */
+    height: 7000px; /*para que no se termine el scroll*/
+}
+
+.logo{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 110vh;
+}
+
+.scroll-tip{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.ironman-title{
+    text-align: center;
+    padding: 100px 0;
+    font-size: 15em;
+}
