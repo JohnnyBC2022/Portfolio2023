@@ -3,6 +3,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden; /*oculta el scroll horizontal */
     height: 7000px; /*para que no se termine el scroll*/
+
+    background-image: url(img/clouds2.png), url(img/capifondo.png);
+    background-repeat: repeat-x, repeat-x;
+    background-position: 0 100vh, 0 350vh;
+    background-size: contain, contain;
+
+    padding: 0;
+    margin: 0;
 }
 
 .logo{
@@ -32,6 +40,11 @@ body{
 
 .ironman-title{
     text-align: center;
-    padding: 100px 0;
-    font-size: 15em;
+    padding: 500px 0;
+    font-size: 10em;
+}
+
+.ironman-02{
+    position: absolute;
+    top: 2500px;
 }
